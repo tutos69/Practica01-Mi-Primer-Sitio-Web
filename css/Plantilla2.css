@@ -1,6 +1,5 @@
-
 /*Menu secundario*/
-.nav{
+.nav {
   float: left;
   width: 15%;
 }
@@ -23,14 +22,16 @@
 
 /*Primera seccion de articulos*/
 
-.section{
+.section {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, auto);
 }
 
-.section1{
+.section1,
+.section2,
+.section3 {
   margin-left: 15%;
   display: grid;
   grid-gap: 20px;
@@ -38,51 +39,56 @@
   grid-template-rows: repeat(5, auto);
 }
 
-.section h1, .section1 h1 {
+.section h1,
+.section1 h1,
+.section2 h1,
+.section3 h1 {
   grid-column: span 3;
   grid-row: span 1;
   text-align: center;
   font-size: 40px;
 }
-h4,p{
+
+h4,
+p {
+
   text-align: center;
   font-size: 20px;
 }
 
-.section img, .section1 img{
-  width: 100%;
-}
-
-.section article:hover, .section1 article:hover{
-  border: 1px solid lightsalmon;
-}
-
-
-.aside{
-  width: 50%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2,auto);
-  float: left;
-}
-
-.aside1{
-  margin-left: 50%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2,auto);
-  
-}
-
+.section img,
+.section1 img,
+.section2 img,
+.section3 img,
 .aside img,
 .aside1 img {
   width: 100%;
 }
 
 
+.section article:hover,
+.section1 article:hover,
+.section2 article:hover,
+.section3 article:hover,
 .aside article:hover,
 .aside1 article:hover {
   border: 1px solid lightsalmon;
+}
+
+.aside {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  float: left;
+}
+
+.aside1 {
+  margin-left: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+
 }
 
 
@@ -91,20 +97,17 @@ h4,p{
   grid-column: span 3;
   grid-row: span 1;
   text-align: center;
-  font-size: 100%;
-  font-size: 40px;
 }
 
-.aside p, .aside1 p{
-  text-align: center;
-}
 
 @media screen and (max-width: 800px) {
-  .nav{
+  .nav {
     padding: 0 20px;
     display: inline-block;
   }
-  h4,p{
+
+  h4,
+  p {
     text-align: center;
     font-size: 15px;
   }
