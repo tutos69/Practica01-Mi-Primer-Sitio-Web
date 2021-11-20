@@ -1,8 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Pacifico&family=Road+Rage&family=Yuji+Syuku&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Yuji Syuku';
+.nav {
+  float: left;
+  width: 10%;
+}
+
+.nav a {
+  background-color: black;
+  height: 30%;
+  list-style: none;
+  padding: 50px;
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav a:hover {
+  color: white;
+  background: #019cde;
+}
+
+/*Primera seccion de articulos*/
+
+.section {
+  width: 75%;
+  display: grid;
+  float: left;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2,auto);
+}
+
+.section article{
+  grid-column: span 2;
+  grid-row: span 2;
+  
+}
+
+.section h2 {
+  grid-column: span 2;
+  grid-row: span 1;
+  text-align: center;
+  font-size: 40px;
+}
+
+.section p{
+  width: 50%;
+  float: right;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.section img {
+  float: left;
+  width: 50%;
+}
+
+
+.section1  {
+  margin-left: 10%;
+  margin-right: 15%;
+  width: 75%;
+  float: left;
+}
+
+
+.section1 p {
+  width: 40%;
+  float: left;
+  text-align: center;
+  padding-top: 15%;
+}
+
+
+.section1 img {
+  width: 60%;
+}
+
+.aside img,.aside1 img{  
+  width: 100%;
+}
+
+.aside{ 
+  width: 15%;
+  float: left;
+}
+
+
+.aside1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+.aside1 h1 {
+  grid-column: span 3;
+  grid-row: span 1;
+  text-align: center;
+}
+
+.aside article:hover,
+.aside1 article:hover {
+  border: 1px solid lightsalmon;
 }
