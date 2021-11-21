@@ -92,6 +92,7 @@ h3 {
     text-align: center;
 }
 
+.section article:hover,
 .aside article:hover,
 .aside1 article:hover {
     border: 1px solid lightsalmon;

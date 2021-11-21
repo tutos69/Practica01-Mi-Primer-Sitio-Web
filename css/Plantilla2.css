@@ -62,6 +62,8 @@ p {
 .section1 img,
 .section2 img,
 .section3 img,
+.aside2 img,
+.aside3 img,
 .aside img,
 .aside1 img {
   width: 100%;
@@ -72,6 +74,8 @@ p {
 .section1 article:hover,
 .section2 article:hover,
 .section3 article:hover,
+.aside2 article:hover,
+.aside3 article:hover,
 .aside article:hover,
 .aside1 article:hover {
   border: 1px solid lightsalmon;
@@ -83,6 +87,41 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   float: left;
+}
+
+
+.aside2 {
+  width: 15%;
+  float: left;
+}
+
+.section4 {
+  width: 70%;
+  float: left;
+  background: red;
+}
+
+.section5 {
+  width: 70%;
+  margin-left: 15%;
+  float: left;
+  background: lightblue;
+  margin-top: -38%;
+
+}
+
+table, tr, td  {
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 15px;
+}
+
+.aside3 {
+  width: 15%;
+  float: left;
+  background: lemonchiffon;
 }
 
 .aside1 {
