@@ -57,7 +57,7 @@
   width: 50%;
 }
 
-/*Segunda seccion de articulos*?
+/*Segunda seccion de articulos*/
 .section1  {
   margin-left: 10%;
   margin-right: 15%;
@@ -104,4 +104,18 @@
 .aside article:hover,
 .aside1 article:hover {
   border: 1px solid lightsalmon;
+}
+
+/*Video */
+.section2 {
+  margin-left: 10%;
+  width: 75%;
+  float: left;
+}
+
+.section2 h2{
+  width: auto;
+  float: right;
+  padding-top: 10%;
+
 }
