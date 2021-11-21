@@ -1,0 +1,31 @@
+.texto{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.boton{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+video{
+    width: 100%;
+    background-clip: border-box;
+}
+
+.formulario{
+    width: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    border-radius: 4px;
+}
