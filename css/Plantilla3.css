@@ -1,121 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Pacifico&family=Road+Rage&family=Yuji+Syuku&display=swap');
-
-.nav {
-  float: left;
-  width: 10%;
+h2{
+    text-align: center;
 }
 
-.nav a {
-  background-color: black;
-  height: 30%;
-  list-style: none;
-  padding: 50px;
-  color: white;
-  display: block;
-  text-decoration: none;
-  text-align: center;
+.section  {
+    width: 70%;
+    float: left;
 }
 
-.nav a:hover {
-  color: white;
-  background: #019cde;
+.section1 {
+    clear: both;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-/*Primera seccion de articulos*/
-
-.section {
-  width: 75%;
-  display: grid;
-  float: left;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2,auto);
+section img{
+    width: 60%;
+    float: left;
 }
 
-.section article{
-  grid-column: span 2;
-  grid-row: span 2;
-  
+section p{
+    text-align: center;
+    float: left;
+    margin-top: 8%;
+    padding: 3%;
+    width: 34%;
 }
 
-.section h2 {
-  grid-column: span 2;
-  grid-row: span 1;
-  text-align: center;
-  font-size: 40px;
+.aside img{
+    width: 100%;
+    max-width: 50%;
 }
 
-.section p{
-  width: 50%;
-  float: right;
-  text-align: center;
-  margin-top: 10%;
+.aside{
+    width: 15%;
+    text-align: center;
+    float: left;
 }
 
-.section img {
-  float: left;
-  width: 50%;
+.aside1{
+    clear: both;
+    text-align: center;
 }
 
-/*Segunda seccion de articulos*/
-.section1  {
-  margin-left: 10%;
-  margin-right: 15%;
-  width: 75%;
-  float: left;
+.aside1 img{
+    width: 100%;
 }
 
 
-.section1 p {
-  width: 40%;
-  float: left;
-  text-align: center;
-  padding-top: 15%;
+.aside1 article{
+    width: 25%;
+    padding: 2%;
+    float: left;
+    margin: 2%;
 }
 
-
-.section1 img {
-  width: 60%;
-}
-
-.aside img,.aside1 img{  
-  width: 100%;
-}
-
-.aside{ 
-  width: 15%;
-  float: left;
-}
-
-
-.aside1 {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, auto);
-}
-
-.aside1 h1 {
-  grid-column: span 3;
-  grid-row: span 1;
-  text-align: center;
-}
-
-.aside article:hover,
-.aside1 article:hover {
-  border: 1px solid lightsalmon;
-}
-
-/*Video */
-.section2 {
-  margin-left: 10%;
-  width: 75%;
-  float: left;
+.section2{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .section2 h2{
-  width: auto;
-  float: right;
-  padding-top: 10%;
-
+    float: left;
+    width: 30%;
+    margin-top: 10%;
+    padding: 3%;
+    font-size: 100%;
 }

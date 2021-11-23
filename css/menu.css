@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+body{
+  font-family: 'Yuji Syuku';
+  background:#FAFAFA;
+}
+
 
 /*Titulo y menu */
 
@@ -28,7 +33,7 @@
 .menu {
   font-family: 'Open';
   font-size: 20px;
-  background: #222;
+  background: #222222;
   color: white;
   padding: 0 20px;
 }
@@ -53,29 +58,51 @@
   background: #019cde;
 }
 
+/*Menu secundario*/
+
+.nav {
+  width: 15%;
+  float: left;
+  background: #222222;
+}
+
+.nav a {
+  padding: 30px;
+  list-style: none;
+  list-style: none;
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav a:hover {
+  color: white;
+  background: #019cde;
+}
+
 /*fooder*/
-.footer {
-  width: 100%;
+footer {
   clear: both;
+  width: 100%;
   background-color: wheat;
 }
 
-.footer .grupo1 {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  grid: 50px;
-  padding: 45px 0px;
+
+footer .grupo1 article{
+  clear: unset;
+  width: 30%;
+  float: left;
+  margin: 3%;
+  padding-left: 10%;
 }
 
-.grupo1 article a img {
-  width: 10opx;
-  height: auto;
+footer img{
+  width: 20%;
 }
 
 .grupo2 {
+  clear: both;
   background-color: black;
   text-align: center;
 }

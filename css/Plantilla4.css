@@ -1,26 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Pacifico&family=Road+Rage&family=Yuji+Syuku&display=swap');
 
-/*Menu secundario*/
-.nav {
-    float: left;
-    width: 15%;
-}
-
-.nav ul li a {
-    background-color: black;
-    height: 30%;
-    list-style: none;
-    padding: 50px;
-    color: white;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-}
-
-.nav a:hover {
-    color: white;
-    background: #019cde;
-}
 
 .section {
     display: grid;
@@ -59,7 +38,6 @@
 
 .article img,
 .article1 img,
-.article3 img,
 .article4 img {
     display: block;
     margin: auto;
