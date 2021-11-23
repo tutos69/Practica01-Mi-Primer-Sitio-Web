@@ -21,7 +21,7 @@ section img{
 section p{
     text-align: center;
     float: left;
-    margin-top: 8%;
+    margin-top: 2%;
     padding: 3%;
     width: 34%;
 }
@@ -62,7 +62,5 @@ section p{
 .section2 h2{
     float: left;
     width: 30%;
-    margin-top: 10%;
-    padding: 3%;
     font-size: 100%;
 }
