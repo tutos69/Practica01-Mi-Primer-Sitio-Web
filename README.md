@@ -6,7 +6,8 @@ Desarrollo
 
 El tema del sitio web tratara de una tienda donde venden celulares, computadoras y accesorios de informática 
   
-1.	Creación de carpeta para almacenar los diferentes archivos: HTML, CSS, Videos, Audios, Imágenes con el nombre de Practica 1 Mi – Primer – Sitio – Web y se realiza la conexión con el Repositorio GITHUB
+1.	Creación de carpeta para almacenar los diferentes archivos: HTML, CSS, Videos, Audios, Imágenes con el nombre de Practica 1 Mi – Primer – Sitio – Web y se realiza la conexión con el Repositorio GITHUB\
+![intro](/imgReadme/01.png)
 2.	Creación de Página Principal: index.html
 3.	Se debió crear como mínimo 8 páginas secundarios HTML
 4.	Todas la paginas HTML tendrán un menú de navegación 
