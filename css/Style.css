@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Pacifico&family=Road+Rage&family=Yuji+Syuku&display=swap');
+
+
+/*Body*/
+body {
+    font-family: 'Yuji Syuku';
+    background: #FAFAFA;
+}
+
+/*Header*/
+.header {
+    font-family: 'Pacifico';
+    font-size: 80px;
+    background: #019cde;
+    color: white;
+}
+
+/*Menu*/
+
+.menu {
+    font-family: 'Open';
+    background: #222222;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.nav a:hover {
+    color: white;
+    background: #019cde;
+}
+
+/*hover*/
+.hover:hover {
+    border: 1px solid lightsalmon;
+}
+
+.nav {
+    background: #222222;
+}
+
+.nav a {
+    list-style: none;
+    color: white;
+}
+
+footer {
+    background-color: wheat;
+}
+
+.grupo2 {
+    clear: both;
+    background-color: black;
+}
+
+.galeria p,
+.publicidad p,
+.grupo2,
+.galeria h1,
+.publicidad h1,
+table,
+tr,
+td,
+h2,
+h1,
+h3,
+p,
+h4,
+.section p,
+.section1 p,
+.section2 p,
+li {
+    text-align: center;
+}
+
+.section article,
+.section1 article,
+.section2 article,
+.aside article,
+.aside1 article {
+    background-color: #C2C2C2;
+}
+
+
+li,
+.section h4,
+.section1 p,
+.section2 p,
+.menu {
+    font-size: 20px;
+}
+
+.section1 p,
+.section2 p {
+    color: #019cde;
+}
+
+.galeria h1,
+.publicidad h1 {
+    font-size: 100%;
+    font-size: 40px;
+}
+
+aside{
+    list-style: none;
+}
+
+.grupo2 small {
+    color: white;
+}

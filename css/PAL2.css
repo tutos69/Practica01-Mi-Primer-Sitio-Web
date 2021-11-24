@@ -1,24 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Pacifico&family=Road+Rage&family=Yuji+Syuku&display=swap');
 
-/*Menu secundario*/
 
 /*Primera seccion de articulos*/
-
-h4,
-p {
-
-  text-align: center;
-  font-size: 20px;
-}
 
 .aside2 img,
 .aside3 img {
   width: 100%;
-}
-
-.aside2 article:hover,
-.aside3 article:hover {
-  border: 1px solid lightsalmon;
 }
 
 .aside2 {
@@ -32,16 +18,15 @@ p {
 }
 
 .section5 {
+  clear: both;
   width: 70%;
   margin-left: 15%;
   float: left;
-  margin-top: -38%;
-
+  margin-top: -35%;
 }
 
 table, tr, td  {
   margin: auto;
-  text-align: center;
   border: 1px solid black;
   border-collapse: collapse;
   border-radius: 15px;
@@ -50,17 +35,4 @@ table, tr, td  {
 .aside3 {
   width: 15%;
   float: left;
-}
-
-@media screen and (max-width: 800px) {
-  .nav {
-    padding: 0 20px;
-    display: inline-block;
-  }
-
-  h4,
-  p {
-    text-align: center;
-    font-size: 15px;
-  }
 }

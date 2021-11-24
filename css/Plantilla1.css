@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Pacifico&family=Road+Rage&family=Yuji+Syuku&display=swap');
 
 /*Slider de imagenes*/
-
 .Slider {
   width: 100%;
   margin: auto;
@@ -79,19 +77,13 @@
 .section1 p {
   width: 30%;
   float: right;
-  text-align: center;
   padding-top: 15%;
-  font-size: 20px;
-  color: #019cde;
 }
 
 .section2 p {
   width: 40%;
   float: left;
-  text-align: center;
   padding-top: 10%;
-  font-size: 20px;
-  color: #019cde;
 }
 
 .section2 img {
@@ -109,16 +101,9 @@
 }
 
 
-
 .galeria img,
 .publicidad img {
   width: 100%;
-}
-
-
-.galeria article:hover,
-.publicidad article:hover {
-  border: 1px solid lightsalmon;
 }
 
 
@@ -126,15 +111,9 @@
 .publicidad h1 {
   grid-column: span 2;
   grid-row: span 1;
-  text-align: center;
-  font-size: 100%;
-  font-size: 40px;
 }
 
-.galeria p,
-.publicidad p {
-  text-align: center;
-}
+
 
 
 

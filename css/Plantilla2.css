@@ -2,30 +2,15 @@
     width: 85%;
     float: left;
 }
-
 .section1 {
     clear: both;
     margin-left: 15%;
-}
-
-section h1,
-p,
-h4 {
-    text-align: center;
-}
-
-.section article:hover,
-.section1 article:hover,
-.aside article:hover,
-.aside1 article:hover {
-    border: 1px solid lightsalmon;
 }
 
 .section article,
 .section1 article,
 .aside article,
 .aside1 article {
-    background-color: #C2C2C2;
     width: 30%;
     float: left;
     margin: 1.6%;
